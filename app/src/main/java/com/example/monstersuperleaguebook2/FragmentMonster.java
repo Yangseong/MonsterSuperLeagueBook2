@@ -49,6 +49,7 @@ public class FragmentMonster extends Fragment {
         monsterData.add(new MonsterItem("xiba", R.drawable.xiba));
         monsterData.add(new MonsterItem("xiba", R.drawable.xiba));
         monsterData.add(new MonsterItem("rabity", R.drawable.rabity));
+        monsterData.add(new MonsterItem("wookong", R.drawable.wookong));
 
 
         monsterAdapter = new MonsterAdapter(getActivity(), monsterData);
