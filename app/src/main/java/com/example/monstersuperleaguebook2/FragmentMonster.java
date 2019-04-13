@@ -23,6 +23,7 @@ public class FragmentMonster extends Fragment {
 
     EditText searchInput;
 
+    //test
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
@@ -47,6 +48,7 @@ public class FragmentMonster extends Fragment {
         monsterData.add(new MonsterItem("xiba", R.drawable.xiba));
         monsterData.add(new MonsterItem("xiba", R.drawable.xiba));
         monsterData.add(new MonsterItem("xiba", R.drawable.xiba));
+        monsterData.add(new MonsterItem("rabity", R.drawable.rabity));
 
 
         monsterAdapter = new MonsterAdapter(getActivity(), monsterData);
