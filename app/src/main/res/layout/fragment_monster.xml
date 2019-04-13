@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#98DEFFFD"
+    >
+
+    <EditText
+        android:drawablePadding="8dp"
+        android:drawableLeft="@drawable/ic_search_gray_24dp"
+        android:id="@+id/search_input"
+        android:hint="스타몬 검색"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_input_style"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1dp"
+        android:textCursorDrawable="@drawable/cursor_color"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/monster_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_input"
+        />
+
+
+
+</RelativeLayout>
