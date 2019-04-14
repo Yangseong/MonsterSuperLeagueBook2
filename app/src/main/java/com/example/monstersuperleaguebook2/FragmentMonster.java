@@ -23,6 +23,8 @@ public class FragmentMonster extends Fragment {
 
     EditText searchInput;
 
+    private String text = "hello";
+
     //test
     @Nullable
     @Override
