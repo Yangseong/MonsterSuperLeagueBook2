@@ -23,7 +23,7 @@ public class FragmentMonster extends Fragment {
 
     EditText searchInput;
 
-    private String text = "hello2 ";
+    private String text = "안녕 테스트야";
 
     //test
     @Nullable
